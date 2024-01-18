@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Vaishnavi Dance Academy
+    style
+      include  ../static/style.css
+  body
+    nav#navbar 
+       ul 
+          div#logo
+             img(src="/static/img/d2.png")
+            
+          li #[a(href="") Home] 
+          li #[a(href="") About] 
+          li #[a(href="") service] 
+          li #[a(href="") contact us]
+
+
+    section#intro 
+       div  welcome to vaishnavi dance academy
+       div.small  Eat sleep dance repeat 
+
+    section#mission 
+       h2 our mission
+       div.card 
+           h3 Dance Perfaction
+           div.card-box
+               div.card-img
+                    img(src="static/img/d7.jpg")
+               div.card-content
+                   p This is the best dance academy of the universe
+       div.card 
+           h3 Dance The Wey You Like
+           div.card-box
+               div.card-img
+                    img(src="static/img/d3.webp")
+               div.card-content     
+                   p This is the best  dance academy of the universe
+       div.card 
+          h3 Dance Teaching
+          div.card-box
+              div.card-img
+                  img(src="static/img/d8.jpg")
+              div.card-content
+                  p This is the best dance academy of the universe
+
+    section#sponser 
+       h2 our sponser 
+       div#sponser1
+            img(src=" /static/img/l1.png",alt=" spiser image",class="spimage")
+            img(src=" /static/img/l4.png",alt=" spiser image",class="spimage")
+            img(src=" /static/img/l2.png",alt=" spiser image",class="spimage")
+            img(src=" /static/img/l3.png",alt=" spiser image",class="spimage")
+
+
+    footer#footer 
+       | copyright @ 2019 VaishnaviDanceAcademy.com | All right reserved
+
+    script
+         include ../static/index.js 
+
+    
