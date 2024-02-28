@@ -22,10 +22,10 @@ app.use('/static', express.static('static'));// for service static files
 app.use(express.urlencoded())
 
 app.set('view engine', 'pug');
-app.set('views', path.join(__dirname , 'views'));
+app.set('views', path.join(__dirname , '/'));
 
 //endpoint
-app.get('',  (req, res)=>{
+app.get('/',  (req, res)=>{
     const params = { }
     res.status(200).render('home.pug' , params)
 });
